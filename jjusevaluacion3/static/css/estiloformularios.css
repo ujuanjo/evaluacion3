@@ -1,0 +1,81 @@
+body {
+    font-family: 'Garamond', 'Times New Roman', Times, serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    max-width: 370px;
+    margin: 16px auto;
+    padding: 18px 14px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06), 0 1.5px 4px rgba(0,0,0,0.03);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; /* Menos separación entre campos */
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 2px; /* Muy poco espacio entre label e input */
+    color: #222;
+}
+
+input[type="text"] {
+    padding: 6px 8px; /* Menos alto, más compacto */
+    border: 1px solid #cfd4da;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f4f6f8;
+    color: #212529;
+    transition: border-color 0.2s;
+    outline: none;
+    font-family: inherit;
+}
+
+input[type="text"]:focus {
+    border-color: #b5bac0;
+    background: #e9ecef;
+}
+
+button[type="submit"] {
+    margin-top: 8px; /* Menos margen arriba del botón */
+    padding: 8px 0; /* Botón menos alto */
+    background-color: #e9ecef;
+    color: #212529;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.04rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.03);
+    font-family: inherit;
+}
+
+button[type="submit"]:hover, button[type="submit"]:focus {
+    background-color: #d3d7dc;
+    color: #1a1e22;
+    outline: none;
+}
+
+div > div {
+    max-width: 340px;
+    margin: 8px auto 0 auto; /* Menos margen arriba */
+    padding: 12px 10px; /* Menos padding */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    color: #222;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.97rem;
+    font-family: inherit;
+}
